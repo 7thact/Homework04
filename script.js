@@ -8,7 +8,7 @@ var score = 0;
 var storedHighScore = 0;
 var quizCountdown = 60;
 var currentQuestion;
-// var currentQuestion;
+
 
 
 function startQuiz() {
