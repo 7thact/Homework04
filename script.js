@@ -4,7 +4,6 @@ var timerEL = document.getElementById("timer");
 var qIndex = 0;
 var questionsEl = document.getElementById("questions");
 var choicesEl = document.getElementById("choices");
-// var austinEL = document.getElementsById("austin");
 var score = 0;
 var storedHighScore = 0;
 var quizCountdown = 60;
@@ -13,7 +12,7 @@ var currentQuestion;
 
 
 function startQuiz() {
-    $("#austin").empty();
+    $("#capital").empty();
     var getStart = document.getElementById("start");
 
     getStart.setAttribute("class", "hide");
