@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Code Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
+
 <body>
-    
-    <div class="card">
-        <div class="card-header">
-          Featured
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
 
 
 
-
-
-
-
-    <script src="questions.js"></script>
+    <div id="start" class="start">
+        <h1> Code Quiz!!!</h1>
+        <button id="start-button"> Start the Game!</button>
+    </div>
+    <div id="austin"><img src="https://img.memecdn.com/press-start-to-begin_o_2570641.jpg" alt="Austin Powers"></div>
+    <div id="vanish">
+        <div id="questions" class="hide"> </div>
+        <h3 id="qTitle"></h3>
+        <div id="choices" class="choices"></div>
+    </div>
+    <div id="timer"></div>
+    <div class="initial">
+        <p> Enter your initials to save high score!</p>
+        <textarea rows="1" cols="10" id="init"></textarea>
+        <button>Enter</button>
+    </div>
+    <footer>C. Cressey Copyright</footer>
+    <script src="./script.js"></script>
+    <script src="./questions.js"></script>
 </body>
+
 </html>
